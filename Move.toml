@@ -1,0 +1,17 @@
+[package]
+name = "voting-dapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+NFTMarket = "0x02dcef292e27a64683de047d0afdfc28dbc234d90b6b00ffe3f758ee66984b89"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
+
